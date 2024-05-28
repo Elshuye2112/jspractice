@@ -1,0 +1,30 @@
+ [
+    {
+        "name":"Elshaday",
+        "age":30,
+        "ability":["html","javascript","laravel"],
+        "address":{
+            "city":"Addis Ababa",
+            "country":"Africa"
+               }
+
+    },
+    { 
+    "name":"Abdisa Ararsa",
+    "age":36,
+    "ability":["html","javascript","laravel"],
+    "address":{
+        "city":"Arisi",
+        "country":"Africa" 
+        }
+        },
+    {
+        "name":"Abebe Alemayehu",
+        "age":35,
+        "ability":["html","javascript","laravel"],
+        "address":{
+            "city":"Bahir Dar",
+            "country":"Africa" 
+            }
+    }
+]
