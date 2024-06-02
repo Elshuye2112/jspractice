@@ -31,3 +31,12 @@ function addNewItem(){
     listId.innerHTML+="<li>New Item  "+counter +" </li>";
     counter++;
 }
+var btnr=document.getElementById('btnr');
+btnr.addEventListener('click',register)
+function register(){
+   var fname=document.getElementById('fname').value;
+   var lname=document.getElementById('lname').value;
+   var email=document.getElementById('email').value;
+   var password=document.getElementById('password').value;
+   alert("The information you insert is "+fname+" "+lname+" "+email+" and "+password);
+}

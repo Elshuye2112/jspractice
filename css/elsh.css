@@ -1,0 +1,15 @@
+.elsh{
+    width: 400px;
+    height: 500px;
+    background-color: blue;
+    transform: rotateX(50%);
+    margin-left: 50%;
+    padding: 5px;
+
+}
+.elsh:hover{
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    background-color: rgb(197, 218, 218);
+    border-top-color: rgb(107, 245, 27);
+
+}
