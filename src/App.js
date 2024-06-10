@@ -20,6 +20,7 @@ function App() {
       
 
       <Route path='/update' element={<Update/>} />
+      <Route path="*" element={<NotFound />} />
        </Routes>
 
       
