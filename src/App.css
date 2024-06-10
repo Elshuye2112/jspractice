@@ -1,7 +1,27 @@
 .App {
   text-align: center;
 }
-
+/* new added css */
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.main-header{
+  font-family: 'Montserrat', sans-serif;
+}
+.update{
+  background-color: rgb(70, 51, 241);
+}
+.delete{
+  background-color: rgb(238, 39, 39);
+}
+.action{
+  display: flex;
+  justify-content: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
